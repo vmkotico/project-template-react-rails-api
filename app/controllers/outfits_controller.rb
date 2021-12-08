@@ -1,11 +1,11 @@
 class OutfitsController < ApplicationController
-    get '/outfits' do
-        items =  Item.all
-        items.to_json
-      end
-  
-      get '/outfits/:id' do
-        outfits = Outfits.find(params[:id])
-        outfits.to_json
-      end 
+  def index
+    outfit =  Outfit.all
+    render json: outfit, status: :ok
+  end
+
+  def show
+    outfit = find_outfit
+    render json: outfit 
+  end
 end

@@ -1,11 +1,11 @@
 class CharactersController < ApplicationController
-    get '/characters' do
-        items =  Item.all
-        items.to_json
+    def index
+        characters =  Character.all
+        render json: characters, status: :ok
       end
   
-      get '/characters/:id' do
+      def show
         characters = Characters.find(params[:id])
-        characters.to_json
+        render json: characters
       end 
 end

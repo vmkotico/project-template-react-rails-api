@@ -1,17 +1,10 @@
 import React from "react";
-import SpellsCard from './SpellsCard';
+import SpellsCard from "./SpellsCard";
 
-function Spells({spell}){
-  const renderSpells = spell.map(oneSpell=><SpellsCard key = {oneSpell.id} vintage= {oneSpell} />)
-  console.log(spell)
-  
+function Spells({ spells }) {
+  // const renderSpells = spells.map(oneSpell=><SpellsCard key = {oneSpell.id} vintage= {oneSpell} />)
+  // console.log(spells)
 
-  return(
-      
-      <div>
-     {renderSpells}
-     </div>  
-      
-  )
+  return <div>{/* {renderSpells} */}</div>;
 }
 export default Spells;

@@ -1,11 +1,13 @@
 class MinionsController < ApplicationController
-    get '/minions' do
-        items =  Item.all
-        items.to_json
-      end
-  
-      get '/minions/:id' do
-        minions = Minions.find(params[:id])
-        minions.to_json
-      end 
+ 
+  def index
+    minion =  Minion.all
+    render json: minion, status: :ok
+  end
+
+  def show
+    minion = find_minion
+    render json: minion 
+  end
+
 end

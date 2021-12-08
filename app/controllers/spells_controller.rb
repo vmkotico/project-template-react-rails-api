@@ -1,11 +1,11 @@
 class SpellsController < ApplicationController
-    get '/spells' do
-        items =  Item.all
-        items.to_json
-      end
-  
-      get '/spells/:id' do
-        spells = Spells.find(params[:id])
-        spells.to_json
-      end 
+  def index
+    spell =  Spell.all
+    render json: spell, status: :ok
+  end
+
+  def show
+    spell = find_spell
+    render json: spell 
+  end
 end

@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { useEffect } from "react";
+
 import Character from "./Character";
 import Equipment from "./Equipment";
 import Homepage from "./Homepage";
@@ -11,13 +11,7 @@ import Outfits from "./Outfits";
 import Spells from "./Spells";
 
 function App() {
-  let MY_URL = "http://localhost:4000";
-
-  useEffect(() => {
-    fetch(MY_URL)
-      .then((resp) => resp.json())
-      .then((resp) => console.log(resp));
-  });
+  let MY_URL = "http://localhost:3000";
   return (
     <div className="App">
       <h1>OP Character Builder</h1>
