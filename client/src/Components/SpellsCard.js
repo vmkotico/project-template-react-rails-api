@@ -1,3 +1,5 @@
+import React from "react";
+
 function SpellCard({ spell: { name, effect, range, image, type, id } }) {
   return (
     <div class="card">

@@ -1,3 +1,5 @@
+import React from "react";
+
 function EquipmentCard({
   equipmentCard: { name, image, description, bonus, type, id },
 }) {

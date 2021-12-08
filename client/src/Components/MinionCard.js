@@ -1,3 +1,5 @@
+import React from "react";
+
 function MinionCard({ MinionCard: { name, description, image, bio, id } }) {
   return (
     <div class="card">
