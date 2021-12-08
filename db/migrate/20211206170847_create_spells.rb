@@ -3,7 +3,7 @@ class CreateSpells < ActiveRecord::Migration[6.1]
     create_table :spells do |t|
       t.string :name
       t.string :image
-      t.string :type
+      t.string :style 
       t.string :effect
       t.string :range
 
