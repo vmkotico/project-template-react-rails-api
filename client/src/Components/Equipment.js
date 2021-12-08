@@ -4,9 +4,7 @@ import { useState, useEffect } from "react";
 
 function Equipments() {
 
-  let equipmentUrl = "http://localhost:3000/equipments";
-
- 
+  let equipmentUrl = "/equipments";
 
   const [equipmentList, setEquipmentList] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -15,10 +13,12 @@ function Equipments() {
       .then((resp) => resp.json())
       .then((data) => {
         console.log(data);
-        setEquipmentList(data);
-        setLoading(false);
+        setEquipmentList(data)
+        // setLoading(false);
       });
   }, []);
+
+
 
   if (loading) return <div>Content is Loading</div>;
 

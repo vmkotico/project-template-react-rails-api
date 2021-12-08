@@ -1,4 +1,6 @@
-function CharacterCard({ characterCard: { name, age, image, bio, id } }) {
+import './index.css';
+
+function CharacterCard({ character: { name, age, image, bio, id } }) {
   return (
     <div class="card">
       <div>{name}</div>

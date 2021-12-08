@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "./Navbar";
 // import { useHistory } from "react-router-dom";
 
 // const history = useHistory();
@@ -6,7 +7,7 @@ import React from "react";
 function Homepage() {
   return (
     <div>
-      <h1>Hello</h1>
+      <NavBar />
       {/* <button
         classname="homepagebutton"
         onClick={() => history.push("/Character")}
