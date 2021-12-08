@@ -3,7 +3,11 @@ import EquipmentCard from "./EquipmentCard";
 import { useState, useEffect } from "react";
 
 function Equipments() {
+
   let equipmentUrl = "http://localhost:3000/equipments";
+
+ 
+
   const [equipmentList, setEquipmentList] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
