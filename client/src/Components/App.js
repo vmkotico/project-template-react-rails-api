@@ -11,7 +11,10 @@ import Outfits from "./Outfits";
 import Spells from "./Spells";
 
 function App() {
-  let MY_URL = "http://localhost:4000";
+
+  let MY_URL = "http://localhost:3000";
+
+
   return (
     <div className="App">
       <h1>OP Character Builder</h1>
