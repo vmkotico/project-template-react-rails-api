@@ -1,3 +1,5 @@
+import React from "react";
+
 function OutfitCard({ outfit: { name, effect, range, image, type, id } }) {
   return (
     <div class="card">

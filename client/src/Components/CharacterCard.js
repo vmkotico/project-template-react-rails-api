@@ -1,3 +1,4 @@
+import React from "react";
 import './index.css';
 
 function CharacterCard({ character: { name, age, image, bio, id } }) {
