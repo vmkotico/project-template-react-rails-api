@@ -21,26 +21,26 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/">
-          <Homepage url={MY_URL} />
+          <Homepage />
         </Route>
         <Route path="/NewCharacterForm">
-          <NewCharacterForm url={MY_URL} />
+          <NewCharacterForm  />
         </Route>
         <Route path="/Minions/:id">
-          <Minions url={MY_URL} />
+          <Minions />
         </Route>
         <Route exact path="/Outfits">
-          <Outfits url={MY_URL} />
+          <Outfits  />
         </Route>
         <Route exact path="/Character">
-          <Character url={MY_URL} />
+          <Character  />
         </Route>
         <Route exact path="/Equipment">
-          <Equipment url={MY_URL} />
+          <Equipment />
         </Route>
 
         <Route exact path="/Spells">
-          <Spells url={MY_URL} />
+          <Spells  />
         </Route>
       </Switch>
     </div>

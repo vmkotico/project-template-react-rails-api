@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 function Characters() {
 
-  let MY_URL = "http://localhost:3000/characters";
+  let MY_URL = "/characters";
 
   const [characterList, setCharacterList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
