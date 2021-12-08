@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2021_12_06_171207) do
     t.string "image"
     t.string "description"
     t.string "bonus"
-    t.string "type"
+    t.string "style"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -55,7 +55,7 @@ ActiveRecord::Schema.define(version: 2021_12_06_171207) do
   create_table "spells", force: :cascade do |t|
     t.string "name"
     t.string "image"
-    t.string "type"
+    t.string "style"
     t.string "effect"
     t.string "range"
     t.datetime "created_at", precision: 6, null: false
@@ -63,6 +63,13 @@ ActiveRecord::Schema.define(version: 2021_12_06_171207) do
   end
 
   create_table "users", force: :cascade do |t|
+    t.string "attributes"
+    t.string "associations"
+    t.string "first_name"
+    t.string "last_name"
+    t.string "username"
+    t.string "email"
+    t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
