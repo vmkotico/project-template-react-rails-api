@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>OP Character Builder</h1>
+      <h1>Fantasy Character Builder</h1>
       <NavBar />
       <Switch>
         <Route exact path="/">
