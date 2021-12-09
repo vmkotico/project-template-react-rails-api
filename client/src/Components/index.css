@@ -10,7 +10,9 @@ body{
 img{
     height: 175px;
     width: 175px;
-    box-shadow: 0 10px 15px 0 rgb(0, 0, 0);
+    box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
+    border: 5px outset rgb(224, 90, 18);; ;
+    border-radius: 10px;
     }
 .card{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
@@ -89,4 +91,37 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+.options{
+    background-color: rgba(224, 90, 18, 0.692);
+    border: 5px outset #0C0C0A; ;
+    color: rgb(241, 241, 231);
+    text-align: wrap;
+    flex-wrap: wrap;
+    padding: 7px 0px;
+    margin: 36px 10px 50px 50px;
+    word-break: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 20px;
+    border: 5px outset #050503; ;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
+}
+.submit{
+    margin-left: 600px;
+    margin-right: 400px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(225, 90, 17);
+    border: 10px, black,outset;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 16px;
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0);
 }

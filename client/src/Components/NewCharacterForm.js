@@ -81,7 +81,7 @@ function NewCharacterForm({ setNewCharacter }) {
 
         <div>
      
-          <div className="NewCharacterForm">
+          <div className="options">
             <div onClick={toggling}>Equipment</div>
             {isOpen && (
               <div>
@@ -103,7 +103,7 @@ function NewCharacterForm({ setNewCharacter }) {
         </div>
         <div>
           
-          <div className="NewCharacterForm">
+          <div className="options">
             <div onClick={toggling}>Outfits...</div>
             {isOpen && (
               <div>
