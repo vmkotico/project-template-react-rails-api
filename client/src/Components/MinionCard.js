@@ -1,6 +1,7 @@
 import React from "react";
+import "./index.css";
 
-function MinionCard({ MinionCard: { name, description, image, bio, id } }) {
+function MinionCard({ minion: { name, description, image, bio, id } }) {
   return (
     <div class="card">
       <div>{name}</div>
@@ -13,5 +14,4 @@ function MinionCard({ MinionCard: { name, description, image, bio, id } }) {
     </div>
   );
 }
-
 export default MinionCard;

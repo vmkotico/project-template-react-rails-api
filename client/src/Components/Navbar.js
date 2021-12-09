@@ -1,37 +1,22 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-
 function NavBar() {
   return (
     <div class="navbar">
-      <NavLink to="/Character">
-        Character 
-      </NavLink>
+      <NavLink to="/HomePage">HomePage</NavLink>
       <br></br>
-      <NavLink to="/NewCharacterForm">
-      New Character
-      </NavLink>
+      <NavLink to="/Character">Character</NavLink>
       <br></br>
-      <NavLink to="/Equipment">
-        Equipment
-      </NavLink>
+      <NavLink to="/NewCharacterForm">New Character</NavLink>
       <br></br>
-      <NavLink to="/HomePage">
-       HomePage 
-      </NavLink>
+      <NavLink to="/Equipment">Equipment</NavLink>
       <br></br>
-      <NavLink to="/Minions">
-        Minions 
-      </NavLink>
+      <NavLink to="/Minions">Minions</NavLink>
       <br></br>
-      <NavLink to="/Outfits">
-       Outfits 
-      </NavLink>
+      <NavLink to="/Outfits">Outfits</NavLink>
       <br></br>
-      <NavLink to="/Spells">
-      Spells 
-      </NavLink>
+      <NavLink to="/Spells">Spells</NavLink>
       <br></br>
     </div>
   );

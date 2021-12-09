@@ -1,11 +1,12 @@
 import React from "react";
+import "./index.css";
 
-function SpellCard({ spell: { name, effect, range, image, type, id } }) {
+function SpellCard({ spell: { name, image, style, effect, range, id } }) {
   return (
     <div class="card">
       <div>{name}</div>
       <br></br>
-      <div>{type}</div>
+      <div>{style}</div>
       <br></br>
       <div>{effect}</div>
       <br></br>

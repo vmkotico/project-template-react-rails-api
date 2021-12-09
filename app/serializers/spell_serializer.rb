@@ -1,3 +1,3 @@
 class SpellSerializer < ActiveModel::Serializer
-  attributes :id, :name, :image, :type, :effect, :range
+  attributes :id, :name, :image, :style, :effect, :range
 end
