@@ -59,7 +59,7 @@ h1{
 
 .NewCharacterForm{
     background-color: rgba(224, 90, 18, 0.692);
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU"); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
     border: 5px outset #0C0C0A; ;
     color: rgb(241, 241, 231);
     text-align: wrap;
@@ -80,4 +80,13 @@ a{
 }
 a:hover{
     color: rgb(224, 90, 18);
+}
+input[type=text], select {
+    width: 75%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }

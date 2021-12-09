@@ -77,51 +77,48 @@ function NewCharacterForm({ setNewCharacter }) {
           value={NewCharacter.imgUrl}
           onChange={handleChange}
         />
-        <input
-          className="user_id"
-          type="text"
-          name="user_id"
-          placeholder="Username"
-          value={NewCharacter.user_id}
-          onChange={handleChange}
-        />
+       
 
         <div>
-          <h1>Equipment</h1>
-          <div>
+     
+          <div className="NewCharacterForm">
             <div onClick={toggling}>Equipment</div>
             {isOpen && (
               <div>
-                <li>
-                  <a href="/Equipment/id:1">Equipment1</a>
-                </li>
-                <li>
-                  <a href="/Equipment/id:2">Equipment2</a>
-                </li>
-                <li>
-                  <a href="/Equipment/id:3">Equipment3</a>
-                </li>
+                <select>
+                <option value = "Scythe"> Scythe </option>
+                <option value = "Blood Sword"> Blood Sword </option>
+                <option value = "Artemis Bow"> Artemis Bow </option>
+                <option value = "Man-Eater"> Man-Eater </option>
+                <option value = "Koga Blade"> Koga Blade </option>
+                <option value = "Poison Axe"> Poison Axe </option>
+                <option value = "Samehada"> Samehada </option>
+                <option value = "Giant Fan"> Giant Fan </option>
+                <option value = "Kubikiribocho"> Kubikiribocho </option>
+                <option value = "Kabutowari"> Kabutowari </option>
+                </select>
               </div>
             )}
           </div>
         </div>
         <div>
-          <h1>Outfits</h1>
-          <div>
+          
+          <div className="NewCharacterForm">
             <div onClick={toggling}>Outfits...</div>
             {isOpen && (
               <div>
-                <ul>
-                  <li>
-                    <a href="/Outfit/id:1">Outfit1</a>
-                  </li>
-                  <li>
-                    <a href="/Outfit/id:2">Outfit2</a>
-                  </li>
-                  <li>
-                    <a href="/Outfit/id:3">Outfit3</a>
-                  </li>
-                </ul>
+                <select>
+                <option value = "Eastern Lady Attire"> Eastern Lady Attire </option>
+                <option value = "Sharlayan Prodigy Suit"> Sharlayan Prodigy Suit </option>
+                <option value = "Peacock Attire"> Peacock Attire </option>
+                <option value = "Emerald Carbuncle Attire"> Emerald Carbuncle Attire </option>
+                <option value = "Loyal Butler Uniform"> Loyal Butler Uniform </option>
+                <option value = "Angelic Attire"> Angelic Attire </option>
+                <option value = "Resshi Attire"> Resshi Attire </option>
+                <option value = "Alphinaud Attire "> Alphinaud Attire  </option>
+                <option value = "Eastern Journey Attire"> Eastern Journey Attire </option>
+                <option value = "Topaz Carbuncle Attire"> Topaz Carbuncle Attire</option>
+                </select>
               </div>
             )}
           </div>

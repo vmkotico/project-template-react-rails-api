@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./Navbar";
+import Finalfantasy from "./assets/finalfantasy.mp4"
 // import { useHistory } from "react-router-dom";
 
 // const history = useHistory();
@@ -7,55 +8,16 @@ import NavBar from "./Navbar";
 function Homepage() {
   return (
     <div>
-      {/* <NavBar /> */}
-      {/* <button
-        classname="homepagebutton"
-        onClick={() => history.push("/Character")}
-      >
-        Characters
-      </button>
-      <br></br>
-      <Button
-        classname="homepagebutton"
-        onClick={() => history.push("/Minions")}
-      >
-        Minions
-      </Button>
-      <br></br>
-      <Button
-        classname="homepagebutton"
-        onClick={() => history.push("/Equipment")}
-      >
-        Equipment
-      </Button>
-      <br></br>
-      <Button
-        classname="homepagebutton"
-        onClick={() => history.push("/Outfits")}
-      >
-        Outfits
-      </Button>
-      <br></br>
-      <Button
-        classname="homepagebutton"
-        onClick={() => history.push("/Spells")}
-      >
-        Outfits
-      </Button>
-      <br></br>
-      <Button
-        classname="homepagebutton"
-        onClick={() => history.push("/SpAbilities")}
-      >
-        Special Abilities
-      </Button>
-      <br></br>
-      <Button
-        classname="homepagebutton"
-        onClick={() => history.push("/NewCharacterForm")}
-      >
-        Create Your Own Character!
-      </Button> */}
+      <video autoPlay muted controls  
+      style = {{ 
+        position: "absolute",
+        width: "50%",
+        height: "50%", 
+        left: "25%",
+        right: "50%"
+      }}>
+        <source src = {Finalfantasy} type = "video/mp4" start = {0.40} />
+      </video>
     </div>
   );
 }
