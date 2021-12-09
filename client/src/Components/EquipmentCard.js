@@ -1,7 +1,7 @@
 import React from "react";
-
+import "./index.css";
 function EquipmentCard({
-  equipmentCard: { name, image, description, bonus, type, id },
+  equipment: { name, image, description, bonus, style, id },
 }) {
   return (
     <div class="card">
@@ -11,7 +11,7 @@ function EquipmentCard({
       <br></br>
       <div>{bonus}</div>
       <br></br>
-      <div>{type}</div>
+      <div>{style}</div>
       <br></br>
       <img src={image} />
     </div>

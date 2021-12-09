@@ -7,7 +7,7 @@ import NavBar from "./Navbar";
 function Homepage() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       {/* <button
         classname="homepagebutton"
         onClick={() => history.push("/Character")}

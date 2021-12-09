@@ -1,3 +1,3 @@
 class EquipmentSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :name, :description, :image, :bonus, :style
 end

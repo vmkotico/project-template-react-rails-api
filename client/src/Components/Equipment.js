@@ -3,7 +3,6 @@ import EquipmentCard from "./EquipmentCard";
 import { useState, useEffect } from "react";
 
 function Equipments() {
-
   let equipmentUrl = "/equipments";
 
   const [equipmentList, setEquipmentList] = useState([]);
@@ -13,16 +12,13 @@ function Equipments() {
       .then((resp) => resp.json())
       .then((data) => {
         console.log(data);
-        setEquipmentList(data)
-        // setLoading(false);
+        setEquipmentList(data);
+        setLoading(false);
       });
   }, []);
 
-
-
   if (loading) return <div>Content is Loading</div>;
 
-  console.log(equipmentList);
   const equipmentCards = equipmentList.map((equipment) => (
     <EquipmentCard key={equipment.id} equipment={equipment} />
   ));
