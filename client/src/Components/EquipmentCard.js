@@ -7,13 +7,13 @@ function EquipmentCard({
     <div class="card">
       <div>{name}</div>
       <br></br>
-      <div>{description}</div>
+      <img src={image} />
       <br></br>
       <div>{bonus}</div>
       <br></br>
       <div>{style}</div>
       <br></br>
-      <img src={image} />
+      <div>{description}</div>
     </div>
   );
 }
