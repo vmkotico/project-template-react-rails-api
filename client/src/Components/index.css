@@ -1,11 +1,12 @@
 body {
   /* background-size: auto; */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuQRtfbHYhGyu9M7LTcCfIdWsC4OYIR0Nwg&usqp=CAU");
+  background-image: url("https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-resize-xZVHAv29G172CdUW.jpg");
   background-repeat: repeat;
   padding: auto;
   background-size: fit;
 }
 img {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   height: 359px;
   width: 640px;
   box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
@@ -13,6 +14,7 @@ img {
   border-radius: 10px;
 }
 .card {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
   color: rgb(241, 241, 231);
   padding: 14px 20px;
@@ -26,11 +28,13 @@ img {
   box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
 }
 .name {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   color: rgb(241, 241, 231);
   font-size: 50px;
 }
 
 h1 {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
   color: rgb(255, 255, 255);
   padding: 14px 20px;
@@ -45,6 +49,7 @@ h1 {
   text-shadow: 3px 3px 2px black, 0 0 50px rgb(224, 90, 18), 0 0 5px black;
 }
 .navbar {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
@@ -85,6 +90,7 @@ a {
   text-shadow: 3px 3px 2px black, 0 0 25px rgb(224, 90, 18), 0 0 5px black;
 }
 a:hover {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   color: rgb(224, 90, 18);
 }
 
@@ -102,6 +108,7 @@ select {
 }
 
 .options {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-color: rgba(224, 90, 18, 0.692);
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
@@ -119,6 +126,7 @@ select {
   box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
 }
 button.submit {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -135,6 +143,7 @@ button.submit {
 }
 
 .wholeform {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-color: rgba(224, 90, 18, 0.692);
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
   border: 5px outset #0c0c0a;
@@ -154,6 +163,7 @@ button.submit {
 }
 
 .loginform {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-color: rgba(224, 90, 18, 0.692);
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
   border: 5px outset #0c0c0a;
@@ -172,7 +182,7 @@ button.submit {
   box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
 }
 .submit {
-
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -198,4 +208,6 @@ button.submit {
   margin-left: auto;
   margin-right: auto;
 }
-
+body {
+  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+}
