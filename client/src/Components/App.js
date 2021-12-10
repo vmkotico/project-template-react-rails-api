@@ -17,7 +17,7 @@ function App() {
       <h1>Fantasy Character Builder</h1>
       <NavBar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Homepage">
           <Homepage />
         </Route>
         <Route path="/NewCharacterForm">
