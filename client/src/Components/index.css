@@ -6,8 +6,8 @@ body {
   background-size: fit;
 }
 img {
-  height: 175px;
-  width: 175px;
+  height: 359px;
+  width: 640px;
   box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
   border: 5px outset rgb(224, 90, 18);
   border-radius: 10px;
@@ -20,24 +20,29 @@ img {
   border: 5px outset #050503;
   border-radius: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 20px;
+  font-size: 30px;
   word-spacing: 5px;
   text-align: center;
   box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
 }
+.name {
+  color: rgb(241, 241, 231);
+  font-size: 50px;
+}
 
 h1 {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
-  color: rgb(230, 217, 217);
+  color: rgb(255, 255, 255);
   padding: 14px 20px;
   margin: 36px 10px 50px 50px;
   border: 5px outset #050503;
   border-radius: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 50px;
+  font-size: 100px;
   word-spacing: 15px;
   text-align: center;
   box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
+  text-shadow: 3px 3px 2px black, 0 0 50px rgb(224, 90, 18), 0 0 5px black;
 }
 .navbar {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
@@ -49,7 +54,7 @@ h1 {
   margin: 36px 10px 50px 50px;
   word-break: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   padding: 14px 20px;
   border: 5px outset #050503;
@@ -76,20 +81,23 @@ h1 {
   box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
 }
 a {
-  color: rgb(241, 241, 231);
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 2px black, 0 0 25px rgb(224, 90, 18), 0 0 5px black;
 }
 a:hover {
   color: rgb(224, 90, 18);
 }
 input[type="text"],
 select {
-  width: 75%;
+  width: 50%;
   padding: 12px 15px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  word-spacing: 5px;
+  text-align: center;
 }
 
 .options {
@@ -102,27 +110,26 @@ select {
   margin: 36px 10px 50px 50px;
   word-break: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   padding: 14px 20px;
   border: 5px outset #050503;
   border-radius: 10px;
   box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
 }
-.submit {
-  margin-left: 600px;
-  margin-right: 400px;
+button.submit {
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
   color: white;
   text-align: center;
   display: block;
-  font-size: 10px;
   border-radius: 15px;
   padding: 10px;
   background-color: rgb(225, 90, 17);
   border: 10px, black, outset;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 16px;
+  font-size: 20px;
   box-shadow: 0 10px 15px 0 rgb(0, 0, 0);
 }
 
@@ -137,7 +144,7 @@ select {
   margin: 36px 10px 50px 50px;
   word-break: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   padding: 14px 20px;
   border: 5px outset #050503;
@@ -162,4 +169,30 @@ select {
   border: 5px outset #050503;
   border-radius: 10px;
   box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
+}
+.submit {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(225, 90, 17);
+  border: 10px, black, outset;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 16px;
+  box-shadow: 0 10px 15px 0 rgb(0, 0, 0);
+}
+.gif {
+  height: 720px;
+  width: 1280px;
+  box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
+  border: 5px outset rgb(224, 90, 18);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -23,7 +23,7 @@ function NewCharacterForm({ setNewCharacter }) {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/Characters", {
+    fetch("http://localhost:4000/Characters", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -41,39 +41,44 @@ function NewCharacterForm({ setNewCharacter }) {
   }
 
   return (
-    <main className="NewCharacterForm">
-      <h2>New Character</h2>
-      <form className="apple" onSubmit={handleSubmit}>
+    <main>
+      <form className="wholeform" onSubmit={handleSubmit}>
+        <label>New Character Name</label>
+        <br></br>
         <input
-          className="name"
+          className="text"
           type="text"
           name="name"
-          placeholder="NewCharacter Name"
           value={NewCharacter.name}
           onChange={handleChange}
         />
+        <br></br>
+        <label>Age</label>
+        <br></br>
         <input
-          className="age"
+          className="text"
           type="text"
           name="age"
-          placeholder="Age"
           value={NewCharacter.price}
           onChange={handleChange}
         />
-
+        <br></br>
+        <label>Bio</label>
+        <br></br>
         <input
-          className="bio"
+          className="text"
           type="text"
           name="bio"
-          placeholder="Bio"
           value={NewCharacter.bio}
           onChange={handleChange}
         />
+        <br></br>
+        <label>Img</label>
+        <br></br>
         <input
           className="imgUrl"
           type="text"
           name="imgUrl"
-          placeholder="Hero Image"
           value={NewCharacter.imgUrl}
           onChange={handleChange}
         />
@@ -141,9 +146,9 @@ function NewCharacterForm({ setNewCharacter }) {
 
         <br></br>
         <br></br>
-        <button className="submit" type="submit">
-          Create New Character
-        </button>
+        <div className="button">
+          <button>Create New Character</button>
+        </div>
       </form>
     </main>
   );

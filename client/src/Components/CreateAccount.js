@@ -6,38 +6,34 @@ function CreateAccount() {
       <form>
         <h3>Register</h3>
 
-        <div className="input">
+        <div>
           <label>First name</label>
-          <input type="text" placeholder="First name" />
+          <br></br>
+          <input type="text" />
         </div>
 
-        <div className="input">
+        <div>
           <label>Last name</label>
-          <input type="text" placeholder="Last name" />
+          <br></br>
+          <input type="text" />
         </div>
 
-        <div className="input">
+        <div>
           <label>Email</label>
-          <input
-            type="email"
-            className="form-control"
-            placeholder="Enter email"
-          />
+          <br></br>
+          <input type="text" />
         </div>
 
-        <div className="input">
+        <div>
           <label>Password</label>
-          <input
-            type="password"
-            className="form-control"
-            placeholder="Enter password"
-          />
+          <br></br>
+          <input type="text" />
         </div>
 
-        <button type="submit" className="btn btn-dark btn-lg btn-block">
+        <button type="submit" className="submit">
           Register
         </button>
-        <p className="forgot-password text-right">
+        <p className="submit">
           Already registered <a href="#">log in?</a>
         </p>
       </form>

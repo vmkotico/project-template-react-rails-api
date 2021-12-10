@@ -2,28 +2,22 @@ import React from "react";
 
 function Login() {
   return (
-    <form className="loginform">
+    <form className="wholeform">
       <h3>Log in</h3>
 
-      <div className="form-group">
+      <div>
         <label>Email</label>
-        <input
-          type="email"
-          className="form-control"
-          placeholder="Enter email"
-        />
+        <br></br>
+        <input type="text" />
       </div>
 
-      <div className="form-group">
+      <div>
         <label>Password</label>
-        <input
-          type="password"
-          className="form-control"
-          placeholder="Enter password"
-        />
+        <br></br>
+        <input type="text" />
       </div>
 
-      <div className="form-group">
+      <div>
         <div className="custom-control custom-checkbox">
           <input
             type="checkbox"
@@ -35,13 +29,14 @@ function Login() {
           </label>
         </div>
       </div>
-
-      <button type="submit" className="btn btn-dark btn-lg btn-block">
-        Sign in
-      </button>
-      <p className="forgot-password text-right">
+      <div className="button">
+        <button type="submit" className="submit">
+          Sign in
+        </button>
+      </div>
+      <div className="button">
         Forgot <a href="#">password?</a>
-      </p>
+      </div>
     </form>
   );
 }

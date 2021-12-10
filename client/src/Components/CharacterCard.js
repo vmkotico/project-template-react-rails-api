@@ -3,7 +3,7 @@ import "./index.css";
 function CharacterCard({ character: { name, age, image, bio, id } }) {
   return (
     <div class="card">
-      <div>{name}</div>
+      <div className="name">{name}</div>
       <br></br>
       <div>{age}</div>
       <br></br>
