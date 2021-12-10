@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 
-function NewCharacterForm({ setNewCharacter }) {
+function NewCharacterForm({ setCharacterList }) {
   const [isOpen, setIsOpen] = useState(false);
   const toggling = () => setIsOpen(!isOpen);
 
@@ -23,7 +23,7 @@ function NewCharacterForm({ setNewCharacter }) {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:4000/Characters", {
+    fetch("/Characters", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,11 +32,11 @@ function NewCharacterForm({ setNewCharacter }) {
     })
       .then((resp) => resp.json())
       .then((data) => {
-        setNewCharacter((currentNewCharacter) => [
+        setCharacterList((currentNewCharacter) => [
           ...currentNewCharacter,
           data,
         ]);
-        setNewCharacter(initialvalue);
+        setNewCharacterForm(initialvalue);
       });
   }
 
