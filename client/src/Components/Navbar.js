@@ -10,6 +10,8 @@ function NavBar() {
       <br></br>
       <NavLink to="/CreateAccount">Create Account</NavLink>
       <br></br>
+      <NavLink to="/CreatedCharacter">CreatedCharacter</NavLink>
+      <br></br>
       <NavLink to="/Character">Character</NavLink>
       <br></br>
       <NavLink to="/NewCharacterForm">New Character</NavLink>
