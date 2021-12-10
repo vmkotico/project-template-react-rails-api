@@ -1,5 +1,6 @@
 class User < ApplicationRecord
     has_many :characters
+    has_many :created_characters
   
     has_secure_password
   

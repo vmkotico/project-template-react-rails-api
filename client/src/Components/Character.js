@@ -2,10 +2,10 @@ import React from "react";
 import CharacterCard from "./CharacterCard";
 import { useState, useEffect } from "react";
 
-function Characters() {
+function Characters({characterList, setCharacterList}) {
   let MY_URL = "/characters";
 
-  const [characterList, setCharacterList] = useState([]);
+
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     fetch(MY_URL)
