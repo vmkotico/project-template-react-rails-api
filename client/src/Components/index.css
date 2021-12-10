@@ -1,6 +1,6 @@
 body {
   /* background-size: auto; */
-  background-image: url("https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-resize-xZVHAv29G172CdUW.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnl2EJqrI99-WuSxt0QQrVgbYk-xgnhe_26Q&usqp=CAU");
   background-repeat: repeat;
   padding: auto;
   background-size: fit;
@@ -15,7 +15,7 @@ img {
 }
 .card {
   cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
+  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
   color: rgb(241, 241, 231);
   padding: 14px 20px;
   margin: 36px 10px 50px 50px;
@@ -35,7 +35,7 @@ img {
 
 h1 {
   cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
+  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
   color: rgb(255, 255, 255);
   padding: 14px 20px;
   margin: 36px 10px 50px 50px;
@@ -50,7 +50,7 @@ h1 {
 }
 .navbar {
   cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
+  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -69,7 +69,7 @@ h1 {
 
 .NewCharacterForm {
   background-color: rgba(224, 90, 18, 0.692);
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
+  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -145,7 +145,7 @@ button.submit {
 .wholeform {
   cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-color: rgba(224, 90, 18, 0.692);
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
+  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -165,7 +165,7 @@ button.submit {
 .loginform {
   cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
   background-color: rgba(224, 90, 18, 0.692);
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkxvforA9ds2d6ISmcjznaYZkBljlIPxWaA&usqp=CAU");
+  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -210,4 +210,8 @@ button.submit {
 }
 body {
   cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+}
+
+body {
+  scroll-behavior: smooth;
 }

@@ -11,9 +11,6 @@ function Homepage() {
         src="https://media.giphy.com/media/fsOEZXnIQrwOY/giphy.gif"
         alt="This will display an animated GIF"
       />
-
-   
-
     </div>
   );
 }
