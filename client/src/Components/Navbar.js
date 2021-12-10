@@ -6,6 +6,10 @@ function NavBar() {
     <div class="navbar">
       <NavLink to="/HomePage">HomePage</NavLink>
       <br></br>
+      <NavLink to="/Login">Login</NavLink>
+      <br></br>
+      <NavLink to="/CreateAccount">Create Account</NavLink>
+      <br></br>
       <NavLink to="/Character">Character</NavLink>
       <br></br>
       <NavLink to="/NewCharacterForm">New Character</NavLink>
