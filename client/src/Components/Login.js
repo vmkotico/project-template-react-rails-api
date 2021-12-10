@@ -3,7 +3,7 @@ import React from "react";
 function Login() {
   return (
     <form className="wholeform">
-      <h3>Log in</h3>
+      <h3>Login</h3>
 
       <div>
         <label>Email</label>
@@ -25,7 +25,7 @@ function Login() {
             id="customCheck1"
           />
           <label className="custom-control-label" htmlFor="customCheck1">
-            Remember me
+            Remember Me
           </label>
         </div>
       </div>
@@ -35,7 +35,7 @@ function Login() {
         </button>
       </div>
       <div className="button">
-        Forgot <a href="#">password?</a>
+      <a href="#"> Forgot Password?</a>
       </div>
     </form>
   );
