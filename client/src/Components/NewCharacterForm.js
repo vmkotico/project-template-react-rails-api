@@ -77,47 +77,62 @@ function NewCharacterForm({ setNewCharacter }) {
           value={NewCharacter.imgUrl}
           onChange={handleChange}
         />
-       
 
         <div>
-     
           <div className="options">
             <div onClick={toggling}>Equipment</div>
             {isOpen && (
               <div>
                 <select>
-                <option value = "Scythe"> Scythe </option>
-                <option value = "Blood Sword"> Blood Sword </option>
-                <option value = "Artemis Bow"> Artemis Bow </option>
-                <option value = "Man-Eater"> Man-Eater </option>
-                <option value = "Koga Blade"> Koga Blade </option>
-                <option value = "Poison Axe"> Poison Axe </option>
-                <option value = "Samehada"> Samehada </option>
-                <option value = "Giant Fan"> Giant Fan </option>
-                <option value = "Kubikiribocho"> Kubikiribocho </option>
-                <option value = "Kabutowari"> Kabutowari </option>
+                  <option value="Scythe"> Scythe </option>
+                  <option value="Blood Sword"> Blood Sword </option>
+                  <option value="Artemis Bow"> Artemis Bow </option>
+                  <option value="Man-Eater"> Man-Eater </option>
+                  <option value="Koga Blade"> Koga Blade </option>
+                  <option value="Poison Axe"> Poison Axe </option>
+                  <option value="Samehada"> Samehada </option>
+                  <option value="Giant Fan"> Giant Fan </option>
+                  <option value="Kubikiribocho"> Kubikiribocho </option>
+                  <option value="Kabutowari"> Kabutowari </option>
                 </select>
               </div>
             )}
           </div>
         </div>
         <div>
-          
           <div className="options">
             <div onClick={toggling}>Outfits...</div>
             {isOpen && (
               <div>
                 <select>
-                <option value = "Eastern Lady Attire"> Eastern Lady Attire </option>
-                <option value = "Sharlayan Prodigy Suit"> Sharlayan Prodigy Suit </option>
-                <option value = "Peacock Attire"> Peacock Attire </option>
-                <option value = "Emerald Carbuncle Attire"> Emerald Carbuncle Attire </option>
-                <option value = "Loyal Butler Uniform"> Loyal Butler Uniform </option>
-                <option value = "Angelic Attire"> Angelic Attire </option>
-                <option value = "Resshi Attire"> Resshi Attire </option>
-                <option value = "Alphinaud Attire "> Alphinaud Attire  </option>
-                <option value = "Eastern Journey Attire"> Eastern Journey Attire </option>
-                <option value = "Topaz Carbuncle Attire"> Topaz Carbuncle Attire</option>
+                  <option value="Eastern Lady Attire">
+                    {" "}
+                    Eastern Lady Attire{" "}
+                  </option>
+                  <option value="Sharlayan Prodigy Suit">
+                    {" "}
+                    Sharlayan Prodigy Suit{" "}
+                  </option>
+                  <option value="Peacock Attire"> Peacock Attire </option>
+                  <option value="Emerald Carbuncle Attire">
+                    {" "}
+                    Emerald Carbuncle Attire{" "}
+                  </option>
+                  <option value="Loyal Butler Uniform">
+                    {" "}
+                    Loyal Butler Uniform{" "}
+                  </option>
+                  <option value="Angelic Attire"> Angelic Attire </option>
+                  <option value="Resshi Attire"> Resshi Attire </option>
+                  <option value="Alphinaud Attire "> Alphinaud Attire </option>
+                  <option value="Eastern Journey Attire">
+                    {" "}
+                    Eastern Journey Attire{" "}
+                  </option>
+                  <option value="Topaz Carbuncle Attire">
+                    {" "}
+                    Topaz Carbuncle Attire
+                  </option>
                 </select>
               </div>
             )}

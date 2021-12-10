@@ -8,6 +8,8 @@ import NavBar from "./Navbar";
 import NewCharacterForm from "./NewCharacterForm";
 import Outfits from "./Outfits";
 import Spells from "./Spells";
+import CreateAccount from "./CreateAccount";
+import Login from "./Login";
 
 function App() {
   let MY_URL = "http://localhost:3000";
@@ -22,6 +24,12 @@ function App() {
         </Route>
         <Route path="/NewCharacterForm">
           <NewCharacterForm />
+        </Route>
+        <Route exact path="/Login">
+          <Login />
+        </Route>
+        <Route exact path="/CreateAccount">
+          <CreateAccount />
         </Route>
         <Route path="/Minions">
           <Minions />

@@ -5,11 +5,7 @@ import NavBar from "./Navbar";
 // const history = useHistory();
 
 function Homepage() {
-  return (
-    <div>
-      
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Homepage;
