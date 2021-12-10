@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :created_characters
   resources :characters, only:[:index, :show]
   resources :users
   resources :outfits, only:[:index, :show]

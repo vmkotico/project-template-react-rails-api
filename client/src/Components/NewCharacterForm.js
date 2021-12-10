@@ -23,7 +23,7 @@ function NewCharacterForm({ setNewCharacter }) {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/Characters", {
+    fetch("http://localhost:4000/Characters", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
