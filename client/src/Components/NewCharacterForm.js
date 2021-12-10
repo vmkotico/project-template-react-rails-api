@@ -85,6 +85,27 @@ function NewCharacterForm({ setNewCharacter }) {
 
         <div>
           <div className="options">
+            <div onClick={toggling}>Spells</div>
+            {isOpen && (
+              <div>
+                <select>
+                  <option value="Flamethrower"> Flamethrower </option>
+                  <option value="Water Cannon"> Water Cannon </option>
+                  <option value="Ice Spikes"> Ice Spikes </option>
+                  <option value="Thunder"> Thunder </option>
+                  <option value="Sonic Boom"> Sonic Boom </option>
+                  <option value="Bug Bite"> Bug Bite </option>
+                  <option value="Bedrock Coffin"> Bedrock Coffin </option>
+                  <option value="Sand Bullet"> Sand Bullet </option>
+                  <option value="Shadow Sword"> Shadow Sword </option>
+                  <option value="Solar Beam"> Solar Beam </option>
+                </select>
+              </div>
+            )}
+          </div>
+        </div>
+        <div>
+          <div className="options">
             <div onClick={toggling}>Equipment</div>
             {isOpen && (
               <div>
@@ -111,31 +132,25 @@ function NewCharacterForm({ setNewCharacter }) {
               <div>
                 <select>
                   <option value="Eastern Lady Attire">
-                    {" "}
-                    Eastern Lady Attire{" "}
+                    Eastern Lady Attire
                   </option>
                   <option value="Sharlayan Prodigy Suit">
-                    {" "}
-                    Sharlayan Prodigy Suit{" "}
+                    Sharlayan Prodigy Suit
                   </option>
                   <option value="Peacock Attire"> Peacock Attire </option>
                   <option value="Emerald Carbuncle Attire">
-                    {" "}
-                    Emerald Carbuncle Attire{" "}
+                    Emerald Carbuncle Attire
                   </option>
                   <option value="Loyal Butler Uniform">
-                    {" "}
-                    Loyal Butler Uniform{" "}
+                    Loyal Butler Uniform
                   </option>
                   <option value="Angelic Attire"> Angelic Attire </option>
                   <option value="Resshi Attire"> Resshi Attire </option>
                   <option value="Alphinaud Attire "> Alphinaud Attire </option>
                   <option value="Eastern Journey Attire">
-                    {" "}
-                    Eastern Journey Attire{" "}
+                    Eastern Journey Attire
                   </option>
                   <option value="Topaz Carbuncle Attire">
-                    {" "}
                     Topaz Carbuncle Attire
                   </option>
                 </select>
@@ -146,12 +161,13 @@ function NewCharacterForm({ setNewCharacter }) {
 
         <br></br>
         <br></br>
-        <div>
-          <button className="submit">Create New Character</button>
+        <div className="button">
+          <button type="submit" className="submit">
+            Create New Character
+          </button>
         </div>
       </form>
     </main>
   );
 }
 export default NewCharacterForm;
-

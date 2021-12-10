@@ -6,7 +6,7 @@ body {
   background-size: fit;
 }
 img {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   height: 359px;
   width: 640px;
   box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
@@ -14,8 +14,8 @@ img {
   border-radius: 10px;
 }
 .card {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
-  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
+  background-image: url("https://i.postimg.cc/GhQkX0G8/cardbackground1.jpg");
   color: rgb(241, 241, 231);
   padding: 14px 20px;
   margin: 36px 10px 50px 50px;
@@ -28,14 +28,14 @@ img {
   box-shadow: 0px 10px 15px 0px rgb(224, 90, 18);
 }
 .name {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   color: rgb(241, 241, 231);
   font-size: 50px;
 }
 
 h1 {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
-  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
+  background-image: url("https://i.postimg.cc/GhQkX0G8/cardbackground1.jpg");
   color: rgb(255, 255, 255);
   padding: 14px 20px;
   margin: 36px 10px 50px 50px;
@@ -49,8 +49,8 @@ h1 {
   text-shadow: 3px 3px 2px black, 0 0 50px rgb(224, 90, 18), 0 0 5px black;
 }
 .navbar {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
-  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
+  background-image: url("https://i.postimg.cc/GhQkX0G8/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -69,7 +69,7 @@ h1 {
 
 .NewCharacterForm {
   background-color: rgba(224, 90, 18, 0.692);
-  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
+  background-image: url("https://i.postimg.cc/GhQkX0G8/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -90,7 +90,7 @@ a {
   text-shadow: 3px 3px 2px black, 0 0 25px rgb(224, 90, 18), 0 0 5px black;
 }
 a:hover {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   color: rgb(224, 90, 18);
 }
 
@@ -108,7 +108,7 @@ select {
 }
 
 .options {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   background-color: rgba(224, 90, 18, 0.692);
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
@@ -126,7 +126,7 @@ select {
   box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
 }
 button.submit {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -143,9 +143,9 @@ button.submit {
 }
 
 .wholeform {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   background-color: rgba(224, 90, 18, 0.692);
-  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
+  background-image: url("https://i.postimg.cc/GhQkX0G8/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -163,9 +163,9 @@ button.submit {
 }
 
 .loginform {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   background-color: rgba(224, 90, 18, 0.692);
-  background-image: url("/home/kayle/phase-4/Phase-4-Project/client/src/Components/cardbackground1.jpg");
+  background-image: url("https://i.postimg.cc/GhQkX0G8/cardbackground1.jpg");
   border: 5px outset #0c0c0a;
   color: rgb(241, 241, 231);
   text-align: wrap;
@@ -182,7 +182,7 @@ button.submit {
   box-shadow: 0px 10px 15px 0px rgb(12, 11, 11);
 }
 .submit {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -209,7 +209,7 @@ button.submit {
   margin-right: auto;
 }
 body {
-  cursor: url('http://www.rw-designer.com/cursor-view/112753.png'), auto;	
+  cursor: url("http://www.rw-designer.com/cursor-view/112753.png"), auto;
 }
 
 body {
